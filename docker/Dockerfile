@@ -1,5 +1,5 @@
 ############ Base image ############
-FROM python:3.12.13-slim AS everysk_worker_base
+FROM python:3.12.16-slim AS everysk_worker_base
 
 ENV PROJECT_ROOT=/var/app
 

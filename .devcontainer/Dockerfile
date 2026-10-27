@@ -1,7 +1,7 @@
 ###############################################
 ############ VSCode DEV Environment ###########
 ###############################################
-FROM python:3.12.9-slim
+FROM python:3.12.16-slim
 
 # System update.
 RUN apt-get update && apt-get -y dist-upgrade && apt-get -y autoremove && apt-get -y autoclean && rm -rf /var/lib/apt/lists/*
