@@ -1,5 +1,5 @@
 requests==2.32.5
 python-dotenv==1.0.1
-everysk-lib[httpx]
+everysk-lib[httpx]==1.15.0
 coverage==7.5.0
 ipython==9.0.1
